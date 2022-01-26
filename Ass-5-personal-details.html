@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+        body{
+            background-color: rgb(239, 240, 243);
+        }
+        #maindiv {
+            margin: auto;
+  width: 50%;
+  border: 1px solid rgba(9, 22, 9, 0.808);
+  padding: 10px; background-color: white;
+        }
+        #step1 {
+            color:rgb(135, 235, 152);
+        }
+        step2 {
+            color: rgb(62, 62, 236);
+        }
+        step3 {
+            color: grey;
+        }
+#firsthead {
+    background-color: rgb(161, 243, 154);
+}
+#secondthead{
+    background-color: rgb(110, 178, 241);
+}
+#thirdhead{
+    background-color: rgb(192, 185, 185);
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+        <table>
+            <tr> <td><th id="firsthead"> <h3>Step 1: Account</h3> </th>
+                <th id="secondthead"> <h3>Step 2: Personal Details</h3> </th>
+                <th id="thirdhead"> <h3> Step 3: Your Review</h3></th>
+        </td>
+        </tr>
+        </table>
+        <br><br>
+        <form action="/review.html">
+            <fieldset>
+             <legend>Personal Details</legend>
+        
+           <label for="email"> <b> First Name:</b></label><br>
+            <input type="text" name="" id="" placeholder="Enter First Name" size="80">
+            <br><br>
+           <label for="last-name"> <b> Last Name:</b> </label> <br>
+            <input type="text" name="" id="" placeholder="Enter Last Name" size="80">
+            <br><br>
+            <label for="cnic"> <b> CNIC: </b></label><br>
+            <input type="number"size="80">
+            <br><br>
+            <label for="last-name"> <b>Social Link: </b>  </label><br>
+            <input type="text" placeholder="Enter Facebook/Linkedin Profile Link" size="80">
+            <br><br>
+            <button>
+            <a href="account-form.html">
+            <img src="./Images/back.png"  width="100"> 
+        </button>
+        <button>        </a>
+            <!-- <a href="review.html"> -->
+            <img src="./Images/next.png" width="100">
+        </a>
+    </button>
+
+        </form>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Form</title>
+    <style>
+        body{
+            background-color: rgb(239, 240, 243);
+        }
+        #maindiv {
+            margin: auto;
+  width: 50%;
+  border: 1px solid rgba(9, 22, 9, 0.808);
+  padding: 10px; background-color: white;
+        }
+        #step1 {
+            color:dodgerblue;
+        }
+        step2 {
+            color: grey;
+        }
+        step3 {
+            color: grey;
+        }
+#firsthead {
+    background-color: rgb(110, 178, 241); width: max-content;
+}
+#secondthead{
+    background-color: rgb(192, 185, 185);
+}
+#thirdhead{
+    background-color: rgb(192, 185, 185);
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+        <table>
+        <tr> <td><th id="firsthead"> <h3>Step 1: Account</h3> </th>
+        <th id="secondthead"> <h3>Step 2: Personal Details</h3> </th>
+        <th id="thirdhead"> <h3> Step 3: Your Review</h3></th>
+        </td>
+        </tr>
+        </table>
+        <br><br>
+        <form action="/personal-details.html">
+            <fieldset>
+             <legend> <h2>Account</h2> </legend>
+        
+           <label for="email"> <b> Email Address:</b></label>  <br>
+            <input type="text" required name="email" id="email" placeholder="Enter Email" size="80" maxlength="15" email="required" /> 
+            <br><br>
+           <label for="password"> <b> Password:</b> </label>  <br>
+            <input type="password" name="password" id="password" placeholder="Enter Password" size="80" maxlength="15" minlength="8 " required />
+            <br><br>
+            <label for="confirm-password"  > <b> Confirm Password:</b></label>  <br>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" size="80" maxlength="15" minlength="8" required/><br>
+            <br><br>
+            <button type="submit">
+            <input type="image" src="">
+
+            <img src="./Images/back.png"  width="100"> 
+        </a>
+    </button>
+        <button>
+            
+            <!-- <a href="personal-details.html"> -->
+                
+            <img src="./Images/next.png" width="100">
+        </a>
+    </button>
+        </form>
+
+
+    </div>
+</body>
+</html>
